@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - SwiftCSV (0.6.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.2.0)
+  - SwiftCSV
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SwiftCSV
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftCSV: ebc63cacc3820042537288c0cc647946261f7c2c
+
+PODFILE CHECKSUM: 220820ebafd19c6ac162e7f8d286862efdab6058
+
+COCOAPODS: 1.8.3

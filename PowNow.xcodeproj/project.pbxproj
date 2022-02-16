@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333F152E57B46EC177B717E6 /* Pods_PowNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76569901A0699ED55646529C /* Pods_PowNow.framework */; };
 		9559974925CA013A00E398B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559974825CA013A00E398B7 /* AppDelegate.swift */; };
-		9559974B25CA013A00E398B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559974A25CA013A00E398B7 /* SceneDelegate.swift */; };
-		9559974D25CA013A00E398B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559974C25CA013A00E398B7 /* ViewController.swift */; };
-		9559975025CA013A00E398B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9559974E25CA013A00E398B7 /* Main.storyboard */; };
 		9559975225CA013D00E398B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9559975125CA013D00E398B7 /* Assets.xcassets */; };
 		9559975525CA013D00E398B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9559975325CA013D00E398B7 /* LaunchScreen.storyboard */; };
+		9559975D25CA1F9C00E398B7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559975C25CA1F9C00E398B7 /* Coordinator.swift */; };
+		9559975F25CA208400E398B7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559975E25CA208400E398B7 /* AppCoordinator.swift */; };
+		9559976125CA211E00E398B7 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559976025CA211E00E398B7 /* MainTabController.swift */; };
+		9559976325CA5D1800E398B7 /* PowderHistoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559976225CA5D1800E398B7 /* PowderHistoryCoordinator.swift */; };
+		9559976625CB510E00E398B7 /* PowderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559976525CB510E00E398B7 /* PowderHistoryViewController.swift */; };
+		9559976825CB516800E398B7 /* PowderHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559976725CB516800E398B7 /* PowderHistoryViewModel.swift */; };
+		9559976A26571FE100E398B7 /* mt-hood-snow_depth.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9559976926571FE100E398B7 /* mt-hood-snow_depth.csv */; };
+		9595397C26BDE17F00F311AF /* PowderAccumulationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595397B26BDE17F00F311AF /* PowderAccumulationCoordinator.swift */; };
+		9595398026BDE27500F311AF /* PowderAccumulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595397F26BDE27500F311AF /* PowderAccumulationViewController.swift */; };
+		9595398226C3162400F311AF /* PowderAccumulationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9595398126C3162400F311AF /* PowderAccumulationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB61CE6E240BEBA68E1B1B0 /* Pods-PowNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowNow.debug.xcconfig"; path = "Target Support Files/Pods-PowNow/Pods-PowNow.debug.xcconfig"; sourceTree = "<group>"; };
+		76569901A0699ED55646529C /* Pods_PowNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9559974525CA013A00E398B7 /* PowNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9559974825CA013A00E398B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9559974A25CA013A00E398B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9559974C25CA013A00E398B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9559974F25CA013A00E398B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9559975125CA013D00E398B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9559975425CA013D00E398B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9559975625CA013D00E398B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9559975C25CA1F9C00E398B7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9559975E25CA208400E398B7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9559976025CA211E00E398B7 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		9559976225CA5D1800E398B7 /* PowderHistoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderHistoryCoordinator.swift; sourceTree = "<group>"; };
+		9559976525CB510E00E398B7 /* PowderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderHistoryViewController.swift; sourceTree = "<group>"; };
+		9559976725CB516800E398B7 /* PowderHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderHistoryViewModel.swift; sourceTree = "<group>"; };
+		9559976926571FE100E398B7 /* mt-hood-snow_depth.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mt-hood-snow_depth.csv"; sourceTree = "<group>"; };
+		9595397B26BDE17F00F311AF /* PowderAccumulationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderAccumulationCoordinator.swift; sourceTree = "<group>"; };
+		9595397F26BDE27500F311AF /* PowderAccumulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderAccumulationViewController.swift; sourceTree = "<group>"; };
+		9595398126C3162400F311AF /* PowderAccumulationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowderAccumulationView.xib; sourceTree = "<group>"; };
+		C471E59E8AC510B789B0ECC4 /* Pods-PowNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowNow.release.xcconfig"; path = "Target Support Files/Pods-PowNow/Pods-PowNow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333F152E57B46EC177B717E6 /* Pods_PowNow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B0734AEDDBDDCBFF61DFCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76569901A0699ED55646529C /* Pods_PowNow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9559973C25CA013A00E398B7 = {
 			isa = PBXGroup;
 			children = (
+				9559976926571FE100E398B7 /* mt-hood-snow_depth.csv */,
 				9559974725CA013A00E398B7 /* PowNow */,
 				9559974625CA013A00E398B7 /* Products */,
+				CE863F655281F8B7DF2F0621 /* Pods */,
+				19B0734AEDDBDDCBFF61DFCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,37 @@
 			isa = PBXGroup;
 			children = (
 				9559974825CA013A00E398B7 /* AppDelegate.swift */,
-				9559974A25CA013A00E398B7 /* SceneDelegate.swift */,
-				9559974C25CA013A00E398B7 /* ViewController.swift */,
-				9559974E25CA013A00E398B7 /* Main.storyboard */,
+				9559976025CA211E00E398B7 /* MainTabController.swift */,
+				9559976525CB510E00E398B7 /* PowderHistoryViewController.swift */,
+				9559976725CB516800E398B7 /* PowderHistoryViewModel.swift */,
+				9595397F26BDE27500F311AF /* PowderAccumulationViewController.swift */,
+				9595398126C3162400F311AF /* PowderAccumulationView.xib */,
+				9559976425CA5DA700E398B7 /* Coordinators */,
 				9559975125CA013D00E398B7 /* Assets.xcassets */,
 				9559975325CA013D00E398B7 /* LaunchScreen.storyboard */,
 				9559975625CA013D00E398B7 /* Info.plist */,
 			);
 			path = PowNow;
+			sourceTree = "<group>";
+		};
+		9559976425CA5DA700E398B7 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9559975E25CA208400E398B7 /* AppCoordinator.swift */,
+				9559976225CA5D1800E398B7 /* PowderHistoryCoordinator.swift */,
+				9595397B26BDE17F00F311AF /* PowderAccumulationCoordinator.swift */,
+				9559975C25CA1F9C00E398B7 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		CE863F655281F8B7DF2F0621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB61CE6E240BEBA68E1B1B0 /* Pods-PowNow.debug.xcconfig */,
+				C471E59E8AC510B789B0ECC4 /* Pods-PowNow.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9559975925CA013D00E398B7 /* Build configuration list for PBXNativeTarget "PowNow" */;
 			buildPhases = (
+				677133702068DC236E912B50 /* [CP] Check Pods Manifest.lock */,
 				9559974125CA013A00E398B7 /* Sources */,
 				9559974225CA013A00E398B7 /* Frameworks */,
 				9559974325CA013A00E398B7 /* Resources */,
+				4BFDC6B78E9B6DE735862193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +180,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9595398226C3162400F311AF /* PowderAccumulationView.xib in Resources */,
 				9559975525CA013D00E398B7 /* LaunchScreen.storyboard in Resources */,
 				9559975225CA013D00E398B7 /* Assets.xcassets in Resources */,
-				9559975025CA013A00E398B7 /* Main.storyboard in Resources */,
+				9559976A26571FE100E398B7 /* mt-hood-snow_depth.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BFDC6B78E9B6DE735862193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowNow/Pods-PowNow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowNow/Pods-PowNow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PowNow/Pods-PowNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677133702068DC236E912B50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9559974125CA013A00E398B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9559974D25CA013A00E398B7 /* ViewController.swift in Sources */,
+				9559976325CA5D1800E398B7 /* PowderHistoryCoordinator.swift in Sources */,
+				9559975D25CA1F9C00E398B7 /* Coordinator.swift in Sources */,
+				9559976625CB510E00E398B7 /* PowderHistoryViewController.swift in Sources */,
+				9559976825CB516800E398B7 /* PowderHistoryViewModel.swift in Sources */,
+				9595398026BDE27500F311AF /* PowderAccumulationViewController.swift in Sources */,
+				9595397C26BDE17F00F311AF /* PowderAccumulationCoordinator.swift in Sources */,
+				9559976125CA211E00E398B7 /* MainTabController.swift in Sources */,
+				9559975F25CA208400E398B7 /* AppCoordinator.swift in Sources */,
 				9559974925CA013A00E398B7 /* AppDelegate.swift in Sources */,
-				9559974B25CA013A00E398B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9559974E25CA013A00E398B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9559974F25CA013A00E398B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9559975325CA013D00E398B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +378,17 @@
 		};
 		9559975A25CA013D00E398B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB61CE6E240BEBA68E1B1B0 /* Pods-PowNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58484NJC8C;
+				DEVELOPMENT_TEAM = 326LF2D4CA;
 				INFOPLIST_FILE = PowNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SpringerSoftware.PowNow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpringerSoftware.PowNow1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +397,17 @@
 		};
 		9559975B25CA013D00E398B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C471E59E8AC510B789B0ECC4 /* Pods-PowNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58484NJC8C;
+				DEVELOPMENT_TEAM = 326LF2D4CA;
 				INFOPLIST_FILE = PowNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SpringerSoftware.PowNow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpringerSoftware.PowNow1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

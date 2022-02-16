@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PowderAccumulationViewController" customModule="PowNow" customModuleProvider="target">
+            <connections>
+                <outlet property="snowDepth" destination="Uvo-8A-XMw" id="ZDw-k4-GzM"/>
+                <outlet property="timePicker" destination="pBO-Dh-r8P" id="w2s-hf-pMr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="bNe-3N-qve"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBO-Dh-r8P">
+                    <rect key="frame" x="27.5" y="225.5" width="320" height="216"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="12E-g6-I8K"/>
+                    </connections>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X inches" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvo-8A-XMw">
+                    <rect key="frame" x="155" y="449.5" width="65.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select hours of snow accumulation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afX-VO-nBP">
+                    <rect key="frame" x="55" y="188.5" width="265.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="pBO-Dh-r8P" firstAttribute="top" secondItem="afX-VO-nBP" secondAttribute="bottom" constant="16" id="Eyo-bD-Zj2"/>
+                <constraint firstItem="pBO-Dh-r8P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Owk-rU-kkL"/>
+                <constraint firstItem="pBO-Dh-r8P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fWU-ST-Kfy"/>
+                <constraint firstItem="afX-VO-nBP" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="pmp-l2-1sV"/>
+                <constraint firstItem="Uvo-8A-XMw" firstAttribute="top" secondItem="pBO-Dh-r8P" secondAttribute="bottom" constant="8" id="yQB-y7-rDp"/>
+                <constraint firstItem="Uvo-8A-XMw" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="zKH-sU-XWR"/>
+            </constraints>
+            <point key="canvasLocation" x="116" y="-37.331334332833585"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
