@@ -21,5 +21,14 @@ This app is meant to be an example of the core concepts needed to develop iOS ap
 * weak references to avoid strong reference cycles
 * Pods
 
-**Future improvments:**
+**Excluded from this app:**
+
+This is a personal project and I treated it as such. Versioning and collaboration are not important to this project.  In an enterprise environment, I treat git and testing much differently.
+
+* correct git commit messages
+* git commit message frequency
+* proper git branching and merging structure
+* testing
+
+**Future improvements:**
 * Choose any available NWAC weather station to display snow accumulation
