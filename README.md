@@ -16,7 +16,7 @@ This app is meant to be an example of the core concepts needed to develop iOS ap
 * outlets and the target-action pattern
 * communication between view controllers and delegates
 * protocols
-* Network calls
+* network calls
 * correct use of background thread(for network calls) and main thread(to update ui)
 * weak references to avoid strong reference cycles
 * Pods
